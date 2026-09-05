@@ -1,0 +1,43 @@
+---
+import { fullAddress, site } from '../config/site';
+---
+
+<section class="relative isolate overflow-hidden bg-navy text-white">
+  <img
+    src="/images/background_smogcheck.png"
+    alt="Smog check service background"
+    width="1672"
+    height="941"
+    class="absolute inset-0 -z-20 h-full w-full object-cover"
+    fetchpriority="high"
+  />
+  <div class="absolute inset-0 -z-10 bg-navy/80"></div>
+  <div class="container-shell py-16 sm:py-20 lg:py-24">
+    <div class="max-w-3xl">
+      <p class="text-sm font-semibold uppercase text-green-200">Gardena, California</p>
+      <h1 class="mt-5 max-w-2xl text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
+        Smog Check Services in Gardena, California
+      </h1>
+      <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-200 sm:text-xl">
+        Professional vehicle emissions testing at a convenient Gardena location.
+      </p>
+      <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+        <a href={site.phoneHref} class="btn-primary" aria-label={`Call ${site.businessName} at ${site.phoneDisplay}`}>
+          Call {site.phoneDisplay}
+        </a>
+        <a
+          href={site.directionsUrl}
+          class="btn-on-dark"
+          target="_blank"
+          rel="noreferrer"
+          aria-label={`Get directions to ${site.businessName}`}
+        >
+          Get Directions
+        </a>
+      </div>
+      <p class="mt-6 text-sm font-medium text-slate-300">
+        {site.businessName} · {fullAddress}
+      </p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,39 @@
+---
+import SectionHeading from './SectionHeading.astro';
+import { site } from '../config/site';
+
+const servicePoints = [
+  'Vehicle emissions testing services in Gardena, California.',
+  'Clear business information so customers can quickly find and contact the shop.',
+  'A convenient location on W Gardena Blvd for area drivers.',
+];
+---
+
+<section id="services" class="section-spacing bg-page-bg">
+  <div class="container-shell">
+    <div class="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
+      <SectionHeading
+        eyebrow="Service Overview"
+        title="Smog Check & Emissions Testing"
+        description={`${site.businessName} provides vehicle emissions testing services in Gardena, California.`}
+      />
+
+      <div class="rounded-lg border border-slate-200 bg-white p-6 shadow-soft sm:p-8">
+        <p class="text-lg leading-8 text-text-primary">
+          Smog Masters Smog Check serves customers who need straightforward vehicle
+          emissions testing at a physical Gardena business location.
+        </p>
+        <ul class="mt-7 grid gap-4">
+          {
+            servicePoints.map((point) => (
+              <li class="flex gap-3 text-text-secondary">
+                <span class="mt-2 h-2.5 w-2.5 shrink-0 rounded-sm bg-brand-green" aria-hidden="true" />
+                <span>{point}</span>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

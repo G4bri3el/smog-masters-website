@@ -1,0 +1,23 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Automotive emissions testing placeholder</title>
+  <desc id="desc">A clean, abstract service bay illustration used until verified business photos are available.</desc>
+  <rect width="1600" height="1000" fill="#0F172A"/>
+  <rect x="88" y="96" width="1424" height="808" rx="8" fill="#1E293B"/>
+  <path d="M88 744H1512" stroke="#334155" stroke-width="4"/>
+  <path d="M205 704L284 524C305 475 352 444 405 444H732C785 444 832 475 853 524L931 704H205Z" fill="#F8FAFC"/>
+  <path d="M305 452L360 325C374 293 406 272 441 272H696C731 272 763 293 777 325L832 452" stroke="#16A34A" stroke-width="22" stroke-linecap="round"/>
+  <rect x="336" y="496" width="466" height="126" rx="8" fill="#CBD5E1"/>
+  <circle cx="367" cy="704" r="58" fill="#0F172A"/>
+  <circle cx="367" cy="704" r="26" fill="#0EA5E9"/>
+  <circle cx="769" cy="704" r="58" fill="#0F172A"/>
+  <circle cx="769" cy="704" r="26" fill="#0EA5E9"/>
+  <path d="M1030 284H1350" stroke="#F8FAFC" stroke-width="18" stroke-linecap="round"/>
+  <path d="M1030 358H1278" stroke="#94A3B8" stroke-width="16" stroke-linecap="round"/>
+  <path d="M1030 430H1398" stroke="#16A34A" stroke-width="16" stroke-linecap="round"/>
+  <path d="M1030 502H1220" stroke="#94A3B8" stroke-width="16" stroke-linecap="round"/>
+  <rect x="1060" y="636" width="284" height="96" rx="8" fill="#0EA5E9"/>
+  <path d="M1110 684H1294" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="1436" cy="178" r="54" fill="#16A34A" fill-opacity="0.9"/>
+  <path d="M1398 178H1474" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+</svg>
+

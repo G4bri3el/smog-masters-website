@@ -1,0 +1,17 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Business exterior placeholder</title>
+  <desc id="desc">A simple storefront placeholder used until a verified exterior photo is available.</desc>
+  <rect width="1200" height="820" fill="#F1F5F9"/>
+  <rect x="104" y="162" width="992" height="494" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="4"/>
+  <rect x="156" y="224" width="888" height="98" rx="8" fill="#0F172A"/>
+  <text x="600" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#FFFFFF">Smog Masters Smog Check</text>
+  <rect x="190" y="378" width="284" height="278" rx="8" fill="#E2E8F0"/>
+  <rect x="524" y="378" width="486" height="278" rx="8" fill="#DBEAFE"/>
+  <path d="M574 560C604 502 652 473 718 473C784 473 832 502 862 560" stroke="#16A34A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M604 592H832" stroke="#0F172A" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="656" cy="604" r="22" fill="#0EA5E9"/>
+  <circle cx="780" cy="604" r="22" fill="#0EA5E9"/>
+  <path d="M98 682H1102" stroke="#94A3B8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M232 724H968" stroke="#CBD5E1" stroke-width="8" stroke-linecap="round"/>
+</svg>
+

@@ -1,0 +1,9 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Smog Masters Smog Check app icon</title>
+  <rect width="180" height="180" rx="24" fill="#0F172A"/>
+  <path d="M40 102C50 78 67 66 90 66C113 66 130 78 140 102" stroke="#16A34A" stroke-width="13" stroke-linecap="round"/>
+  <path d="M50 114H130" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="68" cy="120" r="11" fill="#0EA5E9"/>
+  <circle cx="112" cy="120" r="11" fill="#0EA5E9"/>
+</svg>
+

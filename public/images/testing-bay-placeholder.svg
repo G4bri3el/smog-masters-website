@@ -1,0 +1,17 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Testing bay placeholder</title>
+  <desc id="desc">A restrained emissions testing bay placeholder used until verified interior photos are available.</desc>
+  <rect width="1200" height="820" fill="#F8FAFC"/>
+  <rect x="92" y="92" width="1016" height="636" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="4"/>
+  <rect x="160" y="154" width="314" height="422" rx="8" fill="#E2E8F0"/>
+  <rect x="526" y="154" width="514" height="422" rx="8" fill="#F1F5F9"/>
+  <path d="M602 452L646 350C660 318 691 298 726 298H842C877 298 908 318 922 350L966 452" stroke="#16A34A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M626 478H942" stroke="#0F172A" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="694" cy="506" r="30" fill="#0EA5E9"/>
+  <circle cx="874" cy="506" r="30" fill="#0EA5E9"/>
+  <path d="M222 226H412" stroke="#0F172A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M222 288H382" stroke="#64748B" stroke-width="12" stroke-linecap="round"/>
+  <path d="M222 350H426" stroke="#16A34A" stroke-width="12" stroke-linecap="round"/>
+  <path d="M222 412H340" stroke="#64748B" stroke-width="12" stroke-linecap="round"/>
+</svg>
+

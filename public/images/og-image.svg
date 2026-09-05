@@ -1,0 +1,16 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Smog Masters Smog Check social preview</title>
+  <desc id="desc">Brand preview image for Smog Masters Smog Check in Gardena, California.</desc>
+  <rect width="1200" height="630" fill="#0F172A"/>
+  <rect x="72" y="72" width="1056" height="486" rx="8" fill="#F8FAFC"/>
+  <path d="M122 430H1078" stroke="#CBD5E1" stroke-width="4"/>
+  <path d="M132 386C175 304 243 263 335 263C427 263 495 304 538 386" stroke="#16A34A" stroke-width="24" stroke-linecap="round"/>
+  <path d="M176 428H494" stroke="#0F172A" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="248" cy="446" r="34" fill="#0EA5E9"/>
+  <circle cx="422" cy="446" r="34" fill="#0EA5E9"/>
+  <text x="626" y="252" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#0F172A">Smog Masters</text>
+  <text x="626" y="322" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#0F172A">Smog Check</text>
+  <text x="626" y="398" font-family="Arial, sans-serif" font-size="30" fill="#1E293B">Vehicle emissions testing in Gardena, CA</text>
+  <text x="626" y="456" font-family="Arial, sans-serif" font-size="28" fill="#64748B">725 W Gardena Blvd | +1 (213) 352-8483</text>
+</svg>
+

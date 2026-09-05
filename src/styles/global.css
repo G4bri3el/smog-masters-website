@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply m-0 bg-page-bg font-sans text-text-primary antialiased;
+  }
+
+  a {
+    @apply transition-colors duration-150;
+  }
+
+  :focus-visible {
+    @apply outline outline-2 outline-offset-4 outline-brand-sky;
+  }
+
+  ::selection {
+    @apply bg-brand-green text-white;
+  }
+}
+
+@layer components {
+  .container-shell {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-spacing {
+    @apply py-14 sm:py-16 lg:py-20;
+  }
+
+  .btn {
+    @apply inline-flex min-h-11 items-center justify-center rounded-md px-5 py-3 text-sm font-semibold leading-none transition duration-150;
+  }
+
+  .btn-primary {
+    @apply btn bg-brand-green text-white shadow-soft hover:bg-green-700;
+  }
+
+  .btn-secondary {
+    @apply btn border border-slate-300 bg-white text-navy hover:border-brand-sky hover:text-brand-sky;
+  }
+
+  .btn-on-dark {
+    @apply btn border border-white/30 bg-white text-navy hover:bg-slate-100;
+  }
+
+  .eyebrow {
+    @apply text-sm font-semibold uppercase text-brand-green;
+  }
+}
+

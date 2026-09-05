@@ -1,0 +1,71 @@
+---
+import '../styles/global.css';
+import { localBusinessSchema, site } from '../config/site';
+
+interface Props {
+  title?: string;
+  description?: string;
+  canonicalPath?: string;
+}
+
+const {
+  title = site.seo.title,
+  description = site.seo.description,
+  canonicalPath = '/',
+} = Astro.props;
+
+const canonicalUrl = new URL(canonicalPath, site.siteUrl).toString();
+const ogImageUrl = new URL('/images/og-image.svg', site.siteUrl).toString();
+const gaId = import.meta.env.PUBLIC_GA_ID;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="keywords" content={site.seo.keywords.join(', ')} />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={site.businessName} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImageUrl} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+
+    <link rel="icon" href="/favicon/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.svg" />
+
+    <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />
+
+    {
+      gaId && (
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} />
+      )
+    }
+    {
+      gaId && (
+        <script
+          is:inline
+          set:html={`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', ${JSON.stringify(gaId)});`}
+        />
+      )
+    }
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+
